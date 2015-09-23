@@ -1,13 +1,14 @@
 В проектах мы используем 
-TypeScript 1.6
+TypeScript 1.6.2
+npm install -g typescript;
 бла, бла про настройку 
 Для сборки TypeScript используется ts-loader и typescript
 Webpack
 бла бла про наситройку
 
 Сборка возможна в 3х конфигурациях:
-Test, Release, Debug.
-webpack --configuration=Debug
+***Test***, ***Release***, ***Debug***.
+``` bash webpack --configuration=Debug```
 webpack --configuration=Test
 webpack --configuration=Release
 Пример файла конфигурации для webpack;
