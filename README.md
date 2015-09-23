@@ -1,5 +1,7 @@
 # tsTeam
-ГАЙД:
+#ГАЙД
+# Styles
+Мы используем [bem методологию](https://ru.bem.info/method/)
 # Naming
 ##### Folders: hyphens.
     example: i-like-our-team
