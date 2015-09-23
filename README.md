@@ -1,5 +1,4 @@
-# tsTeam
-#ГАЙД
+# super front-end team
 # Styles
 Мы используем [bem методологию](https://ru.bem.info/method/)
 # Naming
