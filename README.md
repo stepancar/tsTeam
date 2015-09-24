@@ -63,3 +63,5 @@ this.setState({point: {x: 1}});
 declare require:(any)=> any;
 require('../../path/to/need/styles');
 ```
+react event pooling!
+https://facebook.github.io/react/docs/events.html#event-pooling
