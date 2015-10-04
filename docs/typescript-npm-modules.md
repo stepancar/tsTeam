@@ -5,6 +5,7 @@ Each our npm module should have this structure:
     |-- home
     |   |-- package.json
     |   |-- .npmingnore
+    |   |-- lib
     |   |-- src
     |       |-- tsconfig.json
     |       |-- index.ts
@@ -13,7 +14,8 @@ Each our npm module should have this structure:
 
 * package.json - [standard npm module config](https://docs.npmjs.com/files/package.json)
 * .npmignore - [see](https://docs.npmjs.com/misc/developers)
-* src - sources of module
+* lib - contains result of compulation. it is body of npm module. 
+* src - sources of module. Here you can store your ts files
 ## package.json
 example of package.json
 ```javascript
@@ -35,10 +37,16 @@ example of package.json
 }
 ```
 package.json should contains scripts:
-* test
-* build
-* push
+* test  - test script for your code
+* build - script which build javascript module, which will be available in lib directory
+* push  - test, build and npm publish
 and should contains section typings
 ```javascript
  "typings": "lib/index"
 ```
+which means that definition for your module in lib/index.d.ts
+
+### How typescript compiler resolve npm-style typescript module?
+compiler see node_modules -> search in package.json of module section 'typings' -> insert founded module definitions to compilation context.
+### What we should have in index.ts? 
+In index.ts you should describe export of module. In most sitiations it mean export all files in module
