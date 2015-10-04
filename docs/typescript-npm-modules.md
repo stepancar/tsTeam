@@ -16,6 +16,7 @@ Each our npm module should have this structure:
 * .npmignore - [see](https://docs.npmjs.com/misc/developers)
 * lib - contains result of compulation. it is body of npm module. 
 * src - sources of module. Here you can store your ts files
+
 ## package.json
 example of package.json
 ```javascript
