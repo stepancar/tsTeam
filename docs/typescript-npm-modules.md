@@ -40,7 +40,14 @@ example of package.json
 package.json should contains scripts:
 * test  - test script for your code
 * build - script which build javascript module, which will be available in lib directory
-* push  - test, build and npm publish
+* push  - test, build and npm publish to npm repo
+
+```javascript
+npm run test
+npm run build
+npm run push
+
+```
 and should contains section typings
 ```javascript
  "typings": "lib/index"
@@ -49,5 +56,11 @@ which means that definition for your module in lib/index.d.ts
 
 ### How typescript compiler resolve npm-style typescript module?
 compiler see node_modules -> search in package.json of module section 'typings' -> insert founded module definitions to compilation context.
+
 ### What we should have in index.ts? 
 In index.ts you should describe export of module. In most sitiations it mean export all files in module
+
+
+### How to use this module in javascript(not typescript)
+
+In javascript you can use this module like in typescript, Cuz typescript just javascrip with typesystem and with additional features support.
