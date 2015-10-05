@@ -1,5 +1,5 @@
 # TypeScript npm modules guide
-
+#### If you have good skils in npm and typescript -  skip this long text stream and see [example of typescript npm module](https://github.com/stepancar/ts-team-npm-module) else ..
 ## Why typescript npm module?
 See [why typescript](https://basarat.gitbooks.io/typescript/content/docs/why-typescript.html)
 See [whats great in npm ](https://www.quora.com/Node-js/Whats-so-great-about-npm)
