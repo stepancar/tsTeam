@@ -4,7 +4,7 @@
 See [why typescript](https://basarat.gitbooks.io/typescript/content/docs/why-typescript.html)
 See [whats great in npm ](https://www.quora.com/Node-js/Whats-so-great-about-npm)
 
-We need to reuse classes, functions in many projects, which located in different repositories, and we wanna have opportunity to change sources of reused components. npm solves this requirements. It provides versions of packages, easy for edit and install. Ok, why we mix typescript amd npm? Typescript provides type checking for our code, it very important for reused components. For example we change count of function arguments in reused module. Typescript will check call signature and throw compile-time error. We will be notified about problem before runed our application.
+We need to reuse classes, functions in number of projects, which located in the different repositories, and we want to have an opportunity to change the sources of the reused components. npm solves this requirements. It provides versions of packages, easy for edit and install. Ok, why we mix typescript and npm? Typescript provides type checking for our code, it is very important for reused components. For example we change count of function arguments in reused module. Typescript will check call signature and throw compile-time error. We will be notified about problem before runed our application.
 
 
 
