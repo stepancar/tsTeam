@@ -72,3 +72,8 @@ In index.ts you should describe export of module. In most sitiations it mean exp
 ### How to use this module in javascript(not typescript)
 
 In javascript you can use this module like in typescript, Cuz typescript just javascrip with typesystem and with additional features support.
+
+### Why after publish i cant see Readme.md changes?
+
+Our npm just read Readme.md and puts to readme in package.json 
+ 
