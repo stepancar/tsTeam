@@ -78,4 +78,6 @@ In javascript you can use this module like in typescript, Cuz typescript just ja
 Our npm just read Readme.md and puts to readme in package.json 
  
 ## publish process
+Do not push package if you're not in branch associated with current version.
+For example if you consume npm module *DO NOT cd node_modules/my-module/ && npm run push * 
 build -> test -> svn checkout -> check version -> increment version -> copy -> svn add ->svn commit -> npm publish  
