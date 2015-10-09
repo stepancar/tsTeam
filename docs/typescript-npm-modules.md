@@ -77,3 +77,5 @@ In javascript you can use this module like in typescript, Cuz typescript just ja
 
 Our npm just read Readme.md and puts to readme in package.json 
  
+## publish process
+build -> checkout -> check version -> increment version -> copy -> commit -> npm publish  
