@@ -37,7 +37,7 @@ example of package.json
   "scripts": {
     "test": "echo \"Error: no test specified\" && exit 1",
     "build": "tsc --project src",
-    "push": "npm run build & npm version patch & npm --registry http://registry.jsteam.sletat.ru publish",
+    "push": "npm run build && npm version patch && npm --registry http://registry.jsteam.sletat.ru publish",
     "commit": "svn commit /sdf/f/sdf/kl/df"
   },
   "author": {
