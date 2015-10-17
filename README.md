@@ -66,3 +66,6 @@ require('../../path/to/need/styles');
 react event pooling!
 https://facebook.github.io/react/docs/events.html#event-pooling
 Все definitions храним в git репозитории - форке borisyankov/definitelytyped
+
+
+Компонент должен принимать состояние, но изменять это состояние должен код- пользователь
