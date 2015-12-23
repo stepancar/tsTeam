@@ -2,10 +2,10 @@
 # Styles
 Мы используем [bem методологию](https://ru.bem.info/method/)
 # Naming
-##### Folders: hyphens.
-    example: i-like-our-team
-##### Files: camelCase with Upper 1st symbol
-    example: ILikeOurTeam
+##### Folders: camelCase.
+    example myRootFolder/models:
+##### Files: camelCase.
+    example: myModel.ts
 Вообще есть желание везде придерживаться camelCase;    
 #React tsx
 Имя компонента начинается с большой буквы.
