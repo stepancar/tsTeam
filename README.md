@@ -6,7 +6,6 @@
     example myRootFolder/models:
 ##### Files: camelCase.
     example: myModel.ts
-Вообще есть желание везде придерживаться camelCase;    
 #React tsx
 Имя компонента начинается с большой буквы.
 Интерфейсы, описывающие компонент(State, Props)
